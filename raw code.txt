@@ -1,0 +1,161 @@
+import time
+print("Kalhmera!")
+day = input("Ti mera einai? (de,tr,te,pe,pa)")
+
+start = time.time()
+var = time.localtime(start)
+minute = var.tm_min
+hour = var.tm_hour
+print("")
+print(hour,":",minute)
+print("")
+#
+if (day == "de") and (hour == 8) and (minute >= 10 and  minute <= 55):
+    print("Gzavras Fysikh Genikhs")
+    print("https://minedu-secondary.webex.com/meet/gzavras")
+    time.sleep(10)
+elif (day == "de") and (hour == 9) and (minute >= 0 and  minute <= 45):
+    print("Tsolakhs Viologia")
+    print("https://minedu-secondary.webex.com/meet/geortsolbio")
+    time.sleep(10)
+elif (day == "de") and (hour == 10) and (minute >= 0 and  minute <= 40):
+    print("Ntemos Mathimatika Katefthinsis")
+    print("https://minedu-secondary.webex.com/meet/konsntemos")
+    time.sleep(10)
+elif (day == "de") and (hour == 10 and minute >= 50) or (hour == 11 and minute <= 35):
+    print("Mpakalh Ekthesi")
+    print("https://minedu-secondary.webex.com/meet/elenbakali")
+    time.sleep(10)
+elif (day == "de") and (hour == 11 and minute >= 45) or (hour == 12 and minute <= 30):
+    print("Mpakalh Ekthesi")
+    print("https://minedu-secondary.webex.com/meet/elenbakali")
+    time.sleep(10)
+elif (day == "de") and (hour == 12 and minute >= 35) or (hour == 13 and minute <= 25):
+    print("Ntemos Geometria")
+    print("https://minedu-secondary.webex.com/meet/konsntemos")
+    time.sleep(10)
+elif (day == "de") and (hour == 13 and minute >= 30) or (hour == 14 and minute <= 10):
+    print("Telos gia smr")
+    print("")
+    time.sleep(10)
+#
+elif (day == "tr") and (hour == 8) and (minute >= 10 and  minute <= 55):
+    print("Klara Filosofia")
+    print("https://minedu-secondary.webex.com/meet/anastklara")
+    time.sleep(10)
+elif (day == "tr") and (hour == 9) and (minute >= 0 and  minute <= 45):
+    print("Klara Thriskeftika")
+    print("https://minedu-secondary.webex.com/meet/anastklara")
+    time.sleep(10)
+elif (day == "tr") and (hour == 10) and (minute >= 0 and  minute <= 40):
+    print("Tsolakhs Viologia")
+    print("https://minedu-secondary.webex.com/meet/geortsolbio")
+    time.sleep(10)
+elif (day == "tr") and (hour == 10 and minute >= 50) or (hour == 11 and minute <= 35):
+    print("Ntemos Mathimatika Katefthinsis")
+    print("https://minedu-secondary.webex.com/meet/konsntemos")
+    time.sleep(10)
+elif (day == "tr") and (hour == 11 and minute >= 45) or (hour == 12 and minute <= 30):
+    print("Mpakalh Istoria")
+    print("https://minedu-secondary.webex.com/meet/elenbakali")
+    time.sleep(10)
+elif (day == "tr") and (hour == 12 and minute >= 35) or (hour == 13 and minute <= 25):
+    print("Mpakalh Logotexnia")
+    print("https://minedu-secondary.webex.com/meet/elenbakali")
+    time.sleep(10)
+elif (day == "tr") and (hour == 13 and minute >= 30) or (hour == 14 and minute <= 10):
+    print("Sypsa Arxaia")
+    print("https://minedu-secondary.webex.com/meet/vsypsa")
+    time.sleep(10)
+#
+elif (day == "te") and (hour == 8) and (minute >= 10 and  minute <= 55):
+    print("Klara Thriskeftika")
+    print("https://minedu-secondary.webex.com/meet/anastklara")
+    time.sleep(10)
+elif (day == "te") and (hour == 9) and (minute >= 0 and  minute <= 45):
+    print("Ntemos Mathimatika Katefthinsis")
+    print("https://minedu-secondary.webex.com/meet/konsntemos")
+    time.sleep(10)
+elif (day == "te") and (hour == 10) and (minute >= 0 and  minute <= 40):
+    print("Mpakalh Istoria")
+    print("https://minedu-secondary.webex.com/meet/elenbakali")
+    time.sleep(10)
+elif (day == "te") and (hour == 10 and minute >= 50) or (hour == 11 and minute <= 35):
+    print("Salomh Gymnastikh")
+    print("https://minedu-secondary.webex.com/meet/salom")
+    time.sleep(10)
+elif (day == "te") and (hour == 11 and minute >= 45) or (hour == 12 and minute <= 30):
+    print("Gzavras Fysikh Katefthinshs")
+    print("https://minedu-secondary.webex.com/meet/gzavras")
+    time.sleep(10)
+elif (day == "te") and (hour == 12 and minute >= 35) or (hour == 13 and minute <= 25):
+    print("Agglika")
+    print("https://minedu-secondary.webex.com/meet/honkyr")
+    time.sleep(10)
+elif (day == "te") and (hour == 13 and minute >= 30) or (hour == 14 and minute <= 10):
+    print("Mpakalh Logotexnia")
+    print("https://minedu-secondary.webex.com/meet/elenbakali")
+    time.sleep(10)
+#
+elif (day == "pe") and (hour == 8) and (minute >= 10 and  minute <= 55):
+    print("Niarxoy Xhmeia")
+    print("https://minedu-secondary.webex.com/meet/geniarchou")
+    time.sleep(10)
+elif (day == "pe") and (hour == 9) and (minute >= 0 and  minute <= 45):
+    print("Gzavras Fysikh Katefthinsis")
+    print("https://minedu-secondary.webex.com/meet/gzavras")
+    time.sleep(10)
+elif (day == "pe") and (hour == 10) and (minute >= 0 and  minute <= 40):
+    print("Klara Filosofia")
+    print("https://minedu-secondary.webex.com/meet/anastklara")
+    time.sleep(10)
+elif (day == "pe") and (hour == 10 and minute >= 50) or (hour == 11 and minute <= 35):
+    print("Giannakopoulos Plhroforikh")
+    print("https://minedu-secondary.webex.com/meet/xrgian")
+    time.sleep(10)
+elif (day == "pe") and (hour == 11 and minute >= 45) or (hour == 12 and minute <= 30):
+    print("Sypsa Arxaia")
+    print("https://minedu-secondary.webex.com/meet/vsypsa")
+    time.sleep(10)
+elif (day == "pe") and (hour == 12 and minute >= 35) or (hour == 13 and minute <= 25):
+    print("Telos gia smr")
+    print("")
+    time.sleep(10)
+elif (day == "pe") and (hour == 13 and minute >= 30) or (hour == 14 and minute <= 10):
+    print("Telos gia smr")
+    print("")
+    time.sleep(10)
+#
+elif (day == "pa") and (hour == 8) and (minute >= 10 and  minute <= 55):
+    print("Niarxoy Xhmeia")
+    print("https://minedu-secondary.webex.com/meet/geniarchou")
+    time.sleep(10)
+elif (day == "pa") and (hour == 9) and (minute >= 0 and  minute <= 45):
+    print("Salomh Gymnastikh")
+    print("https://minedu-secondary.webex.com/meet/salom")
+    time.sleep(10)
+elif (day == "pa") and (hour == 10) and (minute >= 0 and  minute <= 40):
+    print("Gzavras Fysikh Genikhs")
+    print("https://minedu-secondary.webex.com/meet/gzavras")
+    time.sleep(10)
+elif (day == "pa") and (hour == 10 and minute >= 50) or (hour == 11 and minute <= 35):
+    print("Giannakopoulos Plhroforikh")
+    print("https://minedu-secondary.webex.com/meet/xrgian")
+    time.sleep(10)
+elif (day == "pa") and (hour == 11 and minute >= 45) or (hour == 12 and minute <= 30):
+    print("Foth Germanika")
+    print("https://minedu-secondary.webex.com/meet/marifoti")
+    time.sleep(10)
+elif (day == "pa") and (hour == 12 and minute >= 35) or (hour == 13 and minute <= 25):
+    print("Ntemos Mathimatika Katfthinsis")
+    print("https://minedu-secondary.webex.com/meet/konsntemos")
+    time.sleep(10)
+elif (day == "pa") and (hour == 13 and minute >= 30) or (hour == 14 and minute <= 10):
+    print("Agglika")
+    print("https://minedu-secondary.webex.com/meet/honkyr")
+    time.sleep(10)
+#    
+else:
+    print("dialeima/telos")
+    time.sleep(10)
+
